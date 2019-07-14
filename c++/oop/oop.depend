@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1558779431 source:/home/ishtiaq/codes/c++ codes/oop/main.cpp
+	<iostream>
+	"firstclass.h"
+
+1558779422 /home/ishtiaq/codes/c++ codes/oop/firstclass.h
+	"firstclass.h"
+
+1558779314 source:/home/ishtiaq/codes/c++ codes/oop/firstclass.cpp
+	"firstclass.h"
+	<iostream>
+
