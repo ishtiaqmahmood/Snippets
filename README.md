@@ -54,6 +54,22 @@ A comprehensive collection of programming examples in C++, covering everything f
 - **Series**: Sum of n numbers, Sum of Even/Odd numbers, Square series, and various multiplication series.
 - **Arrays**: 2D Arrays, User Input in Arrays, Passing Arrays to Functions.
 
+#### 🔹 Modern C++ (C++20/23)
+- **C++20**: Concepts, Ranges, Coroutines, Spaceship operator, consteval, std::format, std::span, jthread, atomic wait, source_location, using enum, Likely/Unlikely, constinit, lambda templates.
+- **C++23**: std::expected, mdspan, std::print, stacktrace, flat_map, bind_back, chunks_view, slide_view.
+
+#### 🔹 Advanced STL & Utilities
+- **Algorithms**: all_of, any_of, none_of, transform_reduce, inner_product, adjacent_difference, partial_sum, sample, shuffle, partition_copy, rotate, unique_copy, set operations, clamp, minmax_element, midpoint, lerp, shift_left/right, is_sorted_until, is_partitioned, mismatch, search_n, equal_range.
+- **Concurrency**: condition_variable_any, latch, barrier, semaphore, atomic_ref, call_once, promise/future, packaged_task, shared_mutex, stop_token, parallel algorithms, scoped_lock, thread_local.
+- **Utilities**: custom allocator, PIMPL idiom, strong typedefs, variant visitor, monadic optional, file watcher, logger, thread pool, string_view, smart pointer patterns.
+
+#### 🔹 Design Patterns
+- **Creational**: Abstract Factory, Builder, Prototype.
+- **Structural**: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+- **Behavioral**: Chain of Responsibility, Command, Iterator, Mediator, Memento.
+
+#### 🔹 Template Metaprogramming (TMP)
+- **Core Concepts**: SFINAE, type_traits, enable_if, void_t, detected template, tag dispatching, CRTP, folding expressions, constexpr if, integral_constant, conditional, function_traits, tuple iteration, compile-time math.
 #### 🔹 Advanced Concepts
 - **Memory**: Pointers, Adding numbers using pointers.
 - **Functions**: Function Templates, Recursion, Return Types, Default Parameters.
