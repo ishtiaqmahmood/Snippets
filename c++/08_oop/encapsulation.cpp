@@ -15,6 +15,8 @@ class Student
 
         string name1;
 
+        Student() {}
+
         Student(string name1){
             this -> name1 = name1;
         }

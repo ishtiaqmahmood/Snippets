@@ -6,19 +6,33 @@ A comprehensive collection of programming examples in C++, covering everything f
 
 ```text
 .
-└── c++/                # C++ source files covering basics to advanced topics
-    └── oop/           # Deep dive into Object-Oriented Programming in C++
+└── c++/                # C++ source files organized into logical categories
+    ├── 01_basics/      # Core language syntax (Hello World, input/output, etc.)
+    ├── 02_operators/   # Arithmetic, bitwise, and special operators
+    ├── 03_control_flow/ # Selection and iteration logic
+    ├── 04_math/        # Math algorithms, series, and checkers
+    ├── 05_functions/   # Function definitions, overloading, and templates
+    ├── 06_arrays_data_structures/ # Arrays, linked lists, trees, and graphs
+    ├── 07_pointers_memory/ # Pointers, smart pointers, and memory management
+    ├── 08_oop/         # Classes, inheritance, polymorphism, and OOP pillars
+    ├── 09_algorithms/  # Sorting and searching algorithms
+    ├── 10_stl/         # Standard Template Library containers and algorithms
+    ├── 11_concurrency/ # Multithreading and modern concurrency features
+    ├── 12_modern_cpp/  # C++20 and C++23 specific features
+    ├── 13_design_patterns/ # Creational, structural, and behavioral patterns
+    ├── 14_template_metaprogramming/ # Advanced template techniques
+    └── 15_utilities/   # File I/O, error handling, and miscellaneous tools
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- **C++**: A C++ compiler like `g++` (GCC) is required.
+- **C++**: A C++ compiler like `g++` (GCC) is required. Modern examples may require C++20 or C++23.
 
 ### Running C++ Examples
 
-1. Navigate to the `c++/` directory.
+1. Navigate to a category directory under `c++/`.
 2. Compile a file using `g++`:
    ```bash
    g++ hello.cpp -o hello
@@ -28,57 +42,14 @@ A comprehensive collection of programming examples in C++, covering everything f
    ./hello
    ```
 
+*Note: For C++20/23 features, use the appropriate flag:*
+```bash
+g++ -std=c++20 file.cpp -o output
+```
+
 ## 📚 Topics Covered
 
-### C++ Examples
-
-#### 🔹 Basic Syntax & Control Flow
-- **Basics**: Hello World, User Input, Formatting Output.
-- **Operators**: Arithmetic, Assignment, Bitwise, Unary, Conditional, Special Operators.
-- **Control Flow**: `if-else` (Selection), `switch` (Digit spelling, Vowel/Consonant), `for` loop, `while` loop, `do-while` loop.
-- **Problem Solving**: Leap Year, Even/Odd, Large/Small number, Letter Grade.
-
-#### 🔹 Object-Oriented Programming (OOP)
-- **Fundamentals**: Classes, Objects, `this` keyword, Scope Resolution.
-- **Constructors**: Basic Constructors, Constructor Initializers.
-- **The Four Pillars**:
-  - **Encapsulation**
-  - **Abstraction**
-  - **Inheritance**
-  - **Polymorphism** (Function Overriding, Virtual Functions).
-- **Advanced OOP**: Friend Classes, Function Overloading.
-
-#### 🔹 Algorithms & Mathematics
-- **Math**: Prime Numbers, Fibonacci Series, Factorial, Armstrong Number, Strong Number, Palindrome.
-- **Calculators**: GCD/LCM, Temperature Converter, Area of Triangle, Multiplication Table.
-- **Series**: Sum of n numbers, Sum of Even/Odd numbers, Square series, and various multiplication series.
-- **Arrays**: 2D Arrays, User Input in Arrays, Passing Arrays to Functions.
-
-#### 🔹 Modern C++ (C++20/23)
-- **C++20**: Concepts, Ranges, Coroutines, Spaceship operator, consteval, std::format, std::span, jthread, atomic wait, source_location, using enum, Likely/Unlikely, constinit, lambda templates.
-- **C++23**: std::expected, mdspan, std::print, stacktrace, flat_map, bind_back, chunks_view, slide_view.
-
-#### 🔹 Advanced STL & Utilities
-- **Algorithms**: all_of, any_of, none_of, transform_reduce, inner_product, adjacent_difference, partial_sum, sample, shuffle, partition_copy, rotate, unique_copy, set operations, clamp, minmax_element, midpoint, lerp, shift_left/right, is_sorted_until, is_partitioned, mismatch, search_n, equal_range.
-- **Concurrency**: condition_variable_any, latch, barrier, semaphore, atomic_ref, call_once, promise/future, packaged_task, shared_mutex, stop_token, parallel algorithms, scoped_lock, thread_local.
-- **Utilities**: custom allocator, PIMPL idiom, strong typedefs, variant visitor, monadic optional, file watcher, logger, thread pool, string_view, smart pointer patterns.
-
-#### 🔹 Design Patterns
-- **Creational**: Abstract Factory, Builder, Prototype.
-- **Structural**: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
-- **Behavioral**: Chain of Responsibility, Command, Iterator, Mediator, Memento.
-
-#### 🔹 Template Metaprogramming (TMP)
-- **Core Concepts**: SFINAE, type_traits, enable_if, void_t, detected template, tag dispatching, CRTP, folding expressions, constexpr if, integral_constant, conditional, function_traits, tuple iteration, compile-time math.
-#### 🔹 Advanced Concepts
-- **Memory**: Pointers, Adding numbers using pointers.
-- **Functions**: Function Templates, Recursion, Return Types, Default Parameters.
-- **I/O**: File Handling (Read/Write), String Class, String Demo.
-- **Error Handling**: Exception Handling.
-
-## 🛠 Tools & Technologies
-- **Languages**: C++ (C++11 or later).
-- **Compilers/Runtimes**: GCC/G++.
+Please see the [C++ Directory README](c++/README.md) for a detailed index of all examples.
 
 ---
 *Happy Coding!*
